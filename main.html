@@ -3,19 +3,28 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 	<!-- the entire body must be written by student -->
-	<ol>
-		<li data-ns-test ="shoppingList">LV Bag</li>
-		<li data-ns-test ="shoppingList">Gifts for family</li>
-		<li data-ns-test ="shoppingList">House</li>
-		<li data-ns-test ="shoppingList">Car</li>
-	</ol>
-	<ul>
-		<li data-ns-test ="holidayList">Maldives</li>
-		<li data-ns-test ="holidayList">Bali</li>
-		<li data-ns-test ="holidayList">Ladakh</li>
-	</ul>
+	<ol data-ns-test="shoppingList">
+  <li>New house</li>
+  <li>Car</li>
+  <li>Lv bag</li>
+	<ol >
+  <li data-ns-test="shoppingList">New house</li>
+  <li data-ns-test="shoppingList">car</li>
+  <li data-ns-test="shoppingList">Lv bag</li>
+</ol>
+
+<ul data-ns-test="holidayList">
+  <li>Bali, Indonesia</li>
+  <li>France, Europe</li>
+  <li>Maldives</li>
+<ul >
+  <li data-ns-test="holidayList">Bali, Indonesia</li>
+  <li data-ns-test="holidayList">France, Europe</li>
+  <li data-ns-test="holidayList">Maldives</li>
+</ul>
     <script type="text/javascript" src="./script.js">
 </script>
 </body>
